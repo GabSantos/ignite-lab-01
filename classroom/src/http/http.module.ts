@@ -4,7 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';
 import path from 'node:path';
 import { DatabaseModule } from '../database/database.module';
-import { TestResolver } from './test.resolver';
+import { TestResolver } from './graphql/resolvers/test.resolver';
 
 @Module({
   imports: [
